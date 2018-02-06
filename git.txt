@@ -1,0 +1,39 @@
+                                            
+                                               GIT INSTALLATION
+                                            ______________________
+
+sudo apt-get install git-core
+sudo apt-get install git-doc
+sudo apt-get install git-svn
+sudo apt-get build-dep git-core git-doc git-svn
+
+If failed to execute the 4 above commands use
+
+ sudo apt-get update
+
+   then execute 4th command
+       sudo apt-get build-dep git-core git-doc git-svn
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+                                           USER CONFIGURATION IN GIT
+                                         ______________________________
+
+git config --global user.name "USERNAME"
+git config --global user.mail "MAILID"
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+  
+                                        FOR A SPECIFIC REPOSITORY
+                                      ______________________________
+
+cd "pathtofolder"
+
+mkdir foldername
+cd foldername
+git init  //INITIALISING THE REPOSITORY
+
+git status //STATUS OF THE GIT REPOSITORY
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+                                   
